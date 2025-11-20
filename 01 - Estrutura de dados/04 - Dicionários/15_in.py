@@ -16,3 +16,7 @@ print(resultado)
 
 resultado = "telefone" in contatos["giovanna@gmail.com"]  # True
 print(resultado)
+
+lista_chaves: list = contatos.keys()
+
+print("lista_chaves", lista_chaves)
